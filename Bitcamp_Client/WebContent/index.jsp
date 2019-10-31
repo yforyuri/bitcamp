@@ -248,12 +248,13 @@
 	<script>
 		$(document).ready(function() {
 			list();
+			Kakao.init('4713c1766943d46dfc46037c003075bb');
 		});
 
 		function list() {
 			$.ajax({
 				//url : 'http://localhost:8080/review/rest-review',
-				url: 'http://52.78.80.232:8080/review/rest-review',
+				url: 'http://54.180.100.232:8080/review/rest-review',
 				type : 'GET',
 				success : function(data) {
 
@@ -282,7 +283,7 @@
 			if (confirm('삭제하시겠습니까?')) {
 				$.ajax({
 					//url : 'http://localhost:8080/review/rest-review/'+ idx,
-					url: 'http://52.78.80.232:8080/review/rest-review/' + idx,
+					url: 'http://54.180.100.232:8080/review/rest-review/' + idx,
 					type : 'DELETE',
 					success : function(data) {
 						if (data == 'success') {
@@ -305,7 +306,7 @@
 
 			$.ajax({
 				//url : 'http://localhost:8080/review/rest-review/'+ idx,
-				url: 'http://52.78.80.232:8080/review/rest-review/' + idx,
+				url: 'http://54.180.100.232:8080/review/rest-review/' + idx,
 				type : 'GET',
 				success : function(data) {
 
@@ -391,7 +392,7 @@
 
 			$.ajax({
 				//url : 'http://localhost:8080/review/rest-review/'+ idx,
-				url : 'http://52.78.80.232:8080/review/rest-review/' + idx,
+				url : 'http://54.180.100.232:8080/review/rest-review/' + idx,
 				type : 'PUT',
 				data : JSON.stringify({
 					idx : idx,
@@ -422,7 +423,7 @@
 
 			$.ajax({
 				//url : 'http://localhost:8080/review/rest-review',
-				url : 'http://52.78.80.232:8080/review/rest-review',
+				url : 'http://54.180.100.232:8080/review/rest-review',
 				type : 'POST',
 				data : $('#wForm').serialize(),
 				success : function(data) {
@@ -440,7 +441,7 @@
 
 		}
 
-		Kakao.init('4713c1766943d46dfc46037c003075bb');
+		
 
 		function shareStory() {
 			Kakao.Story.share({
@@ -457,7 +458,7 @@
 
 			$.ajax({
 				//url : 'http://localhost:8080/review/naver',
-				url : 'http://52.78.80.232:8080/review/naver',
+				url : 'http://54.180.100.232:8080/review/naver',
 				type : 'get',
 				dataType : 'json',
 				success : function(data) {
