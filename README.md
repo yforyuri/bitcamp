@@ -1,13 +1,16 @@
 # BITCAMP 숙박 중개 페이지
 
-[관련 PPT 보러 가기](https://docs.google.com/presentation/d/1hhPwEseWwrb17LAxn_P52P8mdpbJRNxlcyZXdio_ijI/edit) 
+숙박 예약 및 후기 공유 사이트
 
-배포 페이지 URL 클릭하면 바로가기 됩니다.
 
-- [회원 가입](http://13.209.40.5:8080/client/)(로그인 하면 유저 페이지로 이동)
-- [어드민](http://13.125.249.209:8080/adminclient/) 페이지
-- [예약](http://15.164.210.154:8080/bitcamp/) 페이지
-- [리뷰](http://54.180.100.232:8080/Bitcamp_Client/) 페이지
+
+
+# Team BITcamp
+
+- 회원 가입 - 김나연 @[mand2](https://github.com/mand2) <br>
+- 관리자 - 손민희 @[Miniminis](https://github.com/Miniminis)<br>
+- 예약 - 권용민 @[kytsaaa6](https://github.com/kytsaaa6)<br>
+- 리뷰 - 노유리 @[yforyuri](https://github.com/yforyuri)<br>
 
 
 
